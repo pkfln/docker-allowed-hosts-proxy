@@ -1,0 +1,29 @@
+{
+  "name": "docker-allowed-hosts-proxy",
+  "version": "0.1.0",
+  "description": "A whitelist-based HTTP/S proxy Docker image.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkfln/docker-allowed-hosts-proxy.git"
+  },
+  "author": "pkfln",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pkfln/docker-allowed-hosts-proxy/issues"
+  },
+  "homepage": "https://github.com/pkfln/docker-allowed-hosts-proxy#readme",
+  "devDependencies": {
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.4000"
+  },
+  "dependencies": {
+    "@types/http-proxy": "^1.17.0",
+    "@types/node": "^11.11.6",
+    "http-proxy": "^1.17.0"
+  }
+}
